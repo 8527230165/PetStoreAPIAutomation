@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="14" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20907" started-at="2023-05-23T05:52:51Z" finished-at="2023-05-23T05:53:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20907" started-at="2023-05-23T05:52:51Z" finished-at="2023-05-23T05:53:12Z">
+      <class name="api.test.UserTests">
+        <test-method status="PASS" signature="setUpData()[pri:0, instance:api.test.UserTests@b62fe6d]" name="setUpData" is-config="true" duration-ms="306" started-at="2023-05-23T05:52:51Z" finished-at="2023-05-23T05:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method status="PASS" signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.UserTests@b62fe6d]" name="testPostUser" duration-ms="3372" started-at="2023-05-23T05:52:52Z" data-provider="all-test-data" finished-at="2023-05-23T05:52:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Ryan, UserId=107, Password=test@1, LastName=John, PhoneNumber=123456777, UserName=testuser1, Email=a@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.UserTests@b62fe6d]" name="testPostUser" duration-ms="1474" started-at="2023-05-23T05:52:56Z" data-provider="all-test-data" finished-at="2023-05-23T05:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Kim, UserId=108, Password=test@2, LastName=So Juen, PhoneNumber=123456778, UserName=testuser2, Email=b@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.UserTests@b62fe6d]" name="testPostUser" duration-ms="1442" started-at="2023-05-23T05:52:57Z" data-provider="all-test-data" finished-at="2023-05-23T05:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Jun, UserId=109, Password=test@3, LastName=So Ram, PhoneNumber=123456779, UserName=testuser3, Email=c@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.UserTests@b62fe6d]" name="testPostUser" duration-ms="1505" started-at="2023-05-23T05:52:59Z" data-provider="all-test-data" finished-at="2023-05-23T05:53:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Tuen, UserId=110, Password=test@4, LastName=Ra Hun, PhoneNumber=123456780, UserName=testuser4, Email=d@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.UserTests@b62fe6d]" name="testPostUser" duration-ms="1637" started-at="2023-05-23T05:53:00Z" data-provider="all-test-data" finished-at="2023-05-23T05:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Rode, UserId=111, Password=test@5, LastName=Doe, PhoneNumber=123456781, UserName=testuser5, Email=e@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testPostUser(java.util.Hashtable)[pri:1, instance:api.test.UserTests@b62fe6d]" name="testPostUser" duration-ms="1430" started-at="2023-05-23T05:53:02Z" data-provider="all-test-data" finished-at="2023-05-23T05:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Smith, UserId=112, Password=test@6, LastName=John, PhoneNumber=123456782, UserName=testuser6, Email=f@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testGetUserByName(java.util.Hashtable)[pri:2, instance:api.test.UserTests@b62fe6d]" name="testGetUserByName" duration-ms="1605" started-at="2023-05-23T05:53:03Z" data-provider="all-username-data" finished-at="2023-05-23T05:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testuser1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testGetUserByName(java.util.Hashtable)[pri:2, instance:api.test.UserTests@b62fe6d]" name="testGetUserByName" duration-ms="1545" started-at="2023-05-23T05:53:05Z" data-provider="all-username-data" finished-at="2023-05-23T05:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testuser2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testGetUserByName(java.util.Hashtable)[pri:2, instance:api.test.UserTests@b62fe6d]" name="testGetUserByName" duration-ms="1426" started-at="2023-05-23T05:53:06Z" data-provider="all-username-data" finished-at="2023-05-23T05:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testuser3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testGetUserByName(java.util.Hashtable)[pri:2, instance:api.test.UserTests@b62fe6d]" name="testGetUserByName" duration-ms="1471" started-at="2023-05-23T05:53:08Z" data-provider="all-username-data" finished-at="2023-05-23T05:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testuser4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testGetUserByName(java.util.Hashtable)[pri:2, instance:api.test.UserTests@b62fe6d]" name="testGetUserByName" duration-ms="1451" started-at="2023-05-23T05:53:09Z" data-provider="all-username-data" finished-at="2023-05-23T05:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testuser5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testGetUserByName(java.util.Hashtable)[pri:2, instance:api.test.UserTests@b62fe6d]" name="testGetUserByName" duration-ms="1375" started-at="2023-05-23T05:53:11Z" data-provider="all-username-data" finished-at="2023-05-23T05:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=testuser6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
